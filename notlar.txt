@@ -1,0 +1,94 @@
+flutter gen-l10n
+flutter build appbundle --release
+flutter run --release
+
+dart run flutter_launcher_icons
+
+dart run flutter_native_splash:create
+
+*************
+FindLostGadget
+
+Paket adı kaydetme Anahtar
+1A:2F:74:DB:86:89:A6:84:D7:F3:54:BB:96:77:4F:51:8C:AF:75:2E:2D:02:C1:BB:B8:E4:A7:16:53:0A:A0:F0
+
+keytool -genkeypair -v -keystore android/app/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+
+Keystore password
+A97531?
+
+**************************
+
+Logları temizle
+adb logcat -c
+sonra logları izle
+adb logcat
+
+Ya da sadece Flutter / hata görmek için:
+
+adb logcat | findstr flutter
+
+veya bizim tag’ler için:
+
+adb logcat | findstr NCARE
+*************************
+deploy
+cd functions
+npm run build
+firebase deploy --only functions --debug
+
+*************************
+1 Release mode (en temiz yöntem)
+Terminalde:
+
+flutter run --release
+Ne olur:debug yok çok daha hızlı çalışır log az olur gerçek kullanıcı gibi çalışır
+Ama build biraz uzun sürer.
+
+2 Profile mode (benim önerim)
+
+flutter run --profile
+Bu:debug kadar yavaş değil release kadar kapalı değil performans test için ideal
+Genelde ben profil modunu kullanırım.
+
+3 APK üretip kurmak
+Direkt APK:
+
+flutter build apk
+sonra:
+
+flutter install
+
+veya APK'yı telefona at.
+
+4 Gerçek kullanıcı gibi test etmek için
+
+flutter run --release
+Bu:debug tamamen kapalı gerçek kullanıcı performansı bildirim davranışı da daha gerçekçi olur
+Ama build biraz uzun.
+
+******************
+APK oluştur:
+
+flutter build apk --profile
+veya gerçek kullanıcı testi için:
+
+flutter build apk --release
+Çıkan dosya burada olur:
+
+build/app/outputs/flutter-apk/app-profile.apk
+veya
+
+build/app/outputs/flutter-apk/app-release.apk
+
+Benim önerim
+Bildirim ve background davranışı için:
+
+flutter build apk --release
+daha doğru test verir.
+
+flutter clean
+flutter pub get
+flutter build apk --debug --target-platform android-arm
+
+***********************************

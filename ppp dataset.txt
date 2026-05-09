@@ -1,0 +1,124 @@
+Country,PPP,Tier
+USA,1.00,A
+Canada,0.95,A
+Germany,0.85,A
+UK,0.83,A
+France,0.82,A
+Italy,0.78,B
+Spain,0.75,B
+Netherlands,0.88,A
+Belgium,0.84,A
+Sweden,0.87,A
+Norway,0.95,A
+Denmark,0.92,A
+Switzerland,1.00,A
+Austria,0.86,A
+Finland,0.85,A
+Ireland,0.90,A
+
+Portugal,0.70,B
+Greece,0.65,B
+Poland,0.55,C
+Czech Republic,0.60,C
+Hungary,0.50,C
+Romania,0.45,C
+Bulgaria,0.40,D
+Croatia,0.55,C
+Slovakia,0.60,C
+Slovenia,0.70,B
+
+Turkey,0.40,D
+Russia,0.45,C
+Ukraine,0.35,D
+Belarus,0.40,D
+Kazakhstan,0.45,C
+
+Japan,0.90,A
+South Korea,0.80,B
+China,0.55,C
+India,0.20,E
+Pakistan,0.18,E
+Bangladesh,0.15,E
+Indonesia,0.25,D
+Vietnam,0.23,D
+Philippines,0.27,D
+Thailand,0.30,D
+Malaysia,0.50,C
+Singapore,1.00,A
+Hong Kong,0.95,A
+
+Brazil,0.35,D
+Mexico,0.40,D
+Argentina,0.30,D
+Chile,0.60,C
+Colombia,0.38,D
+Peru,0.35,D
+Venezuela,0.25,E
+
+South Africa,0.35,D
+Nigeria,0.20,E
+Egypt,0.25,E
+Morocco,0.30,D
+Algeria,0.28,D
+Kenya,0.22,E
+Ethiopia,0.15,E
+
+Saudi Arabia,0.80,B
+UAE,0.85,A
+Israel,0.90,A
+Qatar,0.95,A
+Kuwait,0.90,A
+
+Australia,0.95,A
+New Zealand,0.90,A
+
+Thailand,0.30,D
+Sri Lanka,0.20,E
+Nepal,0.15,E
+Myanmar,0.18,E
+Cambodia,0.20,E
+Laos,0.18,E
+
+Bolivia,0.30,D
+Paraguay,0.35,D
+Uruguay,0.65,B
+
+Tunisia,0.30,D
+Ghana,0.22,E
+Tanzania,0.20,E
+Uganda,0.18,E
+Zambia,0.20,E
+Zimbabwe,0.18,E
+
+Iceland,0.95,A
+Luxembourg,1.00,A
+Malta,0.75,B
+Cyprus,0.70,B
+Estonia,0.65,B
+Latvia,0.60,C
+Lithuania,0.65,B
+
+Georgia,0.35,D
+Armenia,0.30,D
+Azerbaijan,0.40,D
+
+Dominican Republic,0.35,D
+Costa Rica,0.50,C
+Panama,0.60,C
+Guatemala,0.30,D
+Honduras,0.25,E
+El Salvador,0.30,D
+
+Iraq,0.30,D
+Iran,0.35,D
+Jordan,0.45,C
+Lebanon,0.40,D
+
+Mongolia,0.30,D
+
+Botswana,0.40,D
+Namibia,0.35,D
+Mozambique,0.18,E
+
+Papua New Guinea,0.25,E
+Fiji,0.40,D
