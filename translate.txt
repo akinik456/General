@@ -1,0 +1,33 @@
+
+flutter gen-l10n
+
+English / English 							— en
+Turkish / Türkçe 							— tr
+Spanish / Español 							— es
+German / Deutsch 							— de
+French / Français 							— fr
+Italian / Italiano 							— it
+Portuguese (Brazil) / Português (Brasil) 	— pt_BR
+Hindi / हिन्दी 								— hi
+Korean / 한국어 								— ko
+Japanese / 日本語 							— ja
+
+Chinese (Simplified) / 简体中文 				— zh
+Arabic / العربية 							— ar
+Russian / Русский						 	— ru
+Indonesian / Bahasa Indonesia 				— id
+Vietnamese / Tiếng Việt 					— vi
+Thai / ไทย 									— th
+Dutch / Nederlands 							— nl
+Polish / Polski 							— pl
+Swedish / Svenska 							— sv
+
+	
+Master Prompt *****************************	
+	
+en,tr,es,de,fr,it,pt_BR,hi,ko,ja,zh,ar,ru,id,vi,th,nl,pl,sv
+	
+
+	
+	
+	
